@@ -23,9 +23,11 @@
     background-image: url(/images/image-equilibrium.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    transition:all .5s ease-in-out;
 }
 
 #product_img:hover .view{
+    opacity: 1;
     cursor: pointer;
     visibility: visible;
 }
@@ -42,6 +44,8 @@
     background-repeat: no-repeat;
     background-position: 50%;
     visibility: hidden;
+    transition:all .5s ease-in-out;
+    opacity: 0;
 }
 .view img{
     height: 3rem;
