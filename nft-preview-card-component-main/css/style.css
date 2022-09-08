@@ -57,12 +57,14 @@ h1{
     color: hsl(0, 0%, 100%);
     font-weight: 600;
     margin-top: 0.625rem;
+    font-size: 1.4375rem;
+    margin-top: 1.25rem;
 }
 
 .description{
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 2.1008px;
     line-height: 1.875rem;
     width: 95%;
