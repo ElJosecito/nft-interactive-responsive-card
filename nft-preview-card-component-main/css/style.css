@@ -1,0 +1,168 @@
+#main_section{
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 23.4375rem;
+    max-height: 44.75rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1.25rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+#product_img{
+    width: 19.9375rem;
+    height: 19.9375rem;
+    margin: 7.5% 7.5% 0 7.5%;
+    border-radius: 0.9375rem;
+    background-image: url(/images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#product_img:hover .view{
+    cursor: pointer;
+    visibility: visible;
+}
+
+.view{
+    top: 1.9rem;
+    left: 32rem;
+    z-index: 10;
+    border-radius: 0.9375rem;
+    width: 19.9375rem;
+    height: 19.9375rem;
+    background-color: hsla(178, 100%, 50%, 0.397);
+    background-image: url(/images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    visibility: hidden;
+}
+.view img{
+    height: 3rem;
+    width: 3rem;
+}
+
+
+.information_container{
+    margin: 0 0 1.25rem 1.25rem;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+.description{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 2.1008px;
+    line-height: 1.875rem;
+    width: 95%;
+}
+
+
+.ETH_container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    color: hsl(215, 51%, 70%);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#price{
+    color: hsl(178, 100%, 50%);
+}
+
+.user_container{
+    display: flex;
+    border-top: 0.125rem solid hsl(215, 32%, 27%);
+    padding-top: 0.625rem;
+    margin-right:1.25rem ;
+}
+
+#user_img{
+    width: 10%;
+    height: 10%;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 0.125rem solid white;
+}
+
+.creation_of{
+    color: hsl(215, 51%, 70%);
+}
+
+.user_name{
+    color: hsl(0, 0%, 100%);
+    margin-left: 0.25rem;
+}
+
+@media screen and (max-width: 375px) {
+
+    .card{
+        width: 300px;
+        max-height: 44.75rem;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 1.25rem;
+        font-family: 'Outfit', sans-serif;
+    }
+    #product_img{
+        width: 15.9375rem;
+        height: 15.9375rem;
+        margin: 7.5% 7.5% 0 7.5%;
+        border-radius: 0.9375rem;
+        background-image: url(/images/image-equilibrium.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    h1{
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        margin-top: 0.625rem;
+        font-size: 1.5625rem;
+    }
+
+    .description{
+        color: hsl(215, 51%, 70%);
+        font-weight: 300;
+        font-size: 0.8rem;
+        letter-spacing: 0.1125rem;
+        line-height: 1.875rem;
+    }
+
+    .ETH_container{
+        width: 95%;
+        color: hsl(215, 51%, 70%);
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    
+    .creation_of{
+        color: hsl(215, 51%, 70%);
+        font-size: 0.875rem;
+    }
+
+    .user_name{
+        color: hsl(0, 0%, 100%);
+        margin-left: 0.25rem;
+        font-size: 0.875rem;
+    }
+    
+}
+
+
+
+.attribution { font-size: 15px; text-align: center; color: white; background-color: hsl(217, 54%, 11%);}
+.attribution a { color: hsl(228, 100%, 76%); }
